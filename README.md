@@ -12,8 +12,20 @@ After installing Python on your target system/platform, create and activate a Py
 
 ```bash
 python3 -m venv venv
+```
+
+Then, to activate the virtual environment on POSIX-compliant systems running Bash (i.e. MacOS or Linux), the following command can be used:
+
+```bash
 source venv/bin/activate
 ```
+
+> [!NOTE]
+> If running a Windows system, the script to activate the virtual environment will be slightly different. To accomplish this using PowerShell, here is the command that needs to be run:
+> ```pwsh
+> Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
+> .\venv\Scripts\Activate.ps1
+> ```
 
 After the virtual environment is active, the dependencies can be installed using the `requirements.txt` file like so:
 
