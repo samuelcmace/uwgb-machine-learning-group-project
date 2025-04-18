@@ -8,7 +8,7 @@ The only dependency that should be required to open and run the project is the P
 
 ## Project Setup
 
-After installing Python on your target system/platform, create and activate a Python virtual envirornment (venv) in the root directory of the project by executing the following:
+After installing Python on your target system/platform, create and activate a Python virtual environment (venv) in the root directory of the project by executing the following:
 
 ```bash
 python3 -m venv venv
